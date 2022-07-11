@@ -1,0 +1,35 @@
+{
+  "name": "react-countdown-flip-card",
+  "version": "1.0.0",
+  "description": "Flip card component to use in countdown UI for React",
+  "repository": "git@github.com:phucloc8697/react-countdown-flip-card.git",
+  "author": "Loc Nguyen",
+  "license": "MIT",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0",
+    "postcss": "^8.4.14",
+    "rollup": "^2.76.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}
